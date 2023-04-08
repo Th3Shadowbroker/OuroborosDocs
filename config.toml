@@ -6,4 +6,9 @@ enableGitInfo = true
 disableKinds = ['taxonomy', 'taxonomyTerm']
 
 [params]
-BookTheme='auto'
+BookTheme = 'auto'
+BookMenuBundle = '/menu'
+BookRepo = 'https://github.com/Th3Shadowbroker/OuroborosDocs'
+BookCommitPath = 'commit'
+BookEditPath = 'edit/main'
+BookSection = '*'
