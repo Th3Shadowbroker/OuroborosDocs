@@ -1,5 +1,6 @@
 ---
-title: "Configuration"
+title: "OuroborosDocs"
+description: "A repository for everything you need to know about OuroborosMines"
 weight: 1
 bookToc: false
 ---
