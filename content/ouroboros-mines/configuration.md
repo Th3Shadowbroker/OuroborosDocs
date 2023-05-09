@@ -114,6 +114,11 @@ wheat:
     age: 7 <-- Only fully grown wheat
     resetAge: true <-- Reset the age of the wheat to 0 when regenerating
 ```
+#### Supported properties
+| Property | Type    | Description                                                   |
+|----------|---------|---------------------------------------------------------------|
+| age      | int     | The required age of a material that ages (for example wheat). |
+| resetAge | boolean | Reset the age of a material when regenerating.                |
 
 ### Additional customizations
 
