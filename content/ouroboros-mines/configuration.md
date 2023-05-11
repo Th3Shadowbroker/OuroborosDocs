@@ -102,6 +102,24 @@ itemsadder:aqua_aura_ore: <-- Material name prefixed by the material's namespace
 ```
 As you can see, a namespace has been added which allows OuroborosMines to identify the material as custom. Now you can start mining custom blocks!
 
+### Check additional properties
+Some blocks like `WHEAT` or other plants have additional properties. OuroborosMines supports additional checks and modifications on these. To add such check simply add a `properties` section to the material definition like so:
+
+```yaml
+wheat:
+  replacements:
+  - air
+  cooldown: 10
+  properties:
+    age: 7 <-- Only fully grown wheat
+    resetAge: true <-- Reset the age of the wheat to 0 when regenerating
+```
+#### Supported properties
+| Property | Type    | Description                                                   |
+|----------|---------|---------------------------------------------------------------|
+| age      | int     | The required age of a material that ages (for example wheat). |
+| resetAge | boolean | Reset the age of a material when regenerating.                |
+
 ### Additional customizations
 
 #### Auto pickup
