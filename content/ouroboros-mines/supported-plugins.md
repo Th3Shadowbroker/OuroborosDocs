@@ -17,3 +17,4 @@ OuroborosMines supports different plugins. The officially support plugins are:
 - [BeautyQuests](https://www.spigotmc.org/resources/beautyquests.39255/)
 - [ItemsAdder](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90custom-items-armors-hud-gui-mobs-emoji-blocks-wings-hats-liquids.73355/)
 - [EcoSkills](https://www.spigotmc.org/resources/ecoskills-%E2%AD%95-addictive-mmorpg-progression-%E2%9C%85-create-custom-skills-stats-effects-%E2%9C%A8-plug-and-play.95541/)
+- [MMOItems (dev)](https://www.spigotmc.org/resources/mmoitems.39267/)
